@@ -76,3 +76,5 @@ Insuree insuree)
 
     return View(insuree);
 }
+using CarInsurance.ViewModels;
+using System.Linq;
