@@ -78,3 +78,15 @@ Insuree insuree)
 }
 using CarInsurance.ViewModels;
 using System.Linq;
+public ActionResult Admin()
+{
+    var insurees = db.Insurees.Select(x => new InsureeQuoteVM
+    {
+        FirstName = x.FirstName,
+        LastName = x.LastName,
+        EmailAddress = x.EmailAddress,
+        Quote = x.Quote
+    });
+
+    return View(insurees);
+}
