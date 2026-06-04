@@ -1,0 +1,26 @@
+CarInsurance
+│
+├── Controllers
+│   └── InsureesController.cs
+│
+├── Models
+│   ├── Insuree.cs
+│   └── InsuranceContext.cs
+│
+├── ViewModels
+│   └── InsureeQuoteVM.cs
+│
+├── Views
+│   └── Insurees
+│       ├── Index.cshtml
+│       ├── Create.cshtml
+│       ├── Edit.cshtml
+│       ├── Details.cshtml
+│       ├── Delete.cshtml
+│       └── Admin.cshtml
+│
+├── App_Data
+│
+├── Content
+│
+└── Scripts
