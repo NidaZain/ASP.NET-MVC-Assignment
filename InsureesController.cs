@@ -108,15 +108,4 @@ namespace CarInsurance.Controllers
             return View(insurees);
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-
-            base.Dispose(disposing);
-        }
-    }
-}
-    
+       
